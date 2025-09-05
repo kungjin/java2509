@@ -1,0 +1,13 @@
+package ch06.sec13.exam01.package2;
+
+//import ch06.sec13.exam01.package1.B; 
+// 이 경우에는 B는 들어오지만 A는 안들어와요.
+import ch06.sec13.exam01.package1.*;
+
+public class C {
+	
+	//필드 선언
+	A a; 
+	B b;
+
+}
